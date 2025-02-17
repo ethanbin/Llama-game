@@ -20,7 +20,7 @@ public class EnemyLogic : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("enemy Trigger enter");
+        // Debug.Log("enemy Trigger enter");
     }
 
 }
