@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyLogic : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField] private float timeToHit;
     [SerializeField] private GameObject targetPlayer;
