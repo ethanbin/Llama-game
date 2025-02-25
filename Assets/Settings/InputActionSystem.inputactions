@@ -1,5 +1,34 @@
 {
     "name": "InputActionSystem",
-    "maps": [],
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "1f71e32c-c7e3-4a39-8da3-ab1349bb80d4",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "0f0c87f3-25b3-44bf-bf64-24ee8120e394",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4575bed8-46dc-4f5c-8e5d-6427c1577bef",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
     "controlSchemes": []
 }
